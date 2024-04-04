@@ -8,7 +8,7 @@ async function loadTasks() {
 
 async function ListTasks() {
   const tasks = await loadTasks();
-  console.log(tasks);
+  
 
   return ( 
     <div
